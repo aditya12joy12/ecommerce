@@ -1,0 +1,32 @@
+.footer {
+  background-color: #003366;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+:global(h4) {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.copy {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
